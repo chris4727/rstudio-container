@@ -8,5 +8,4 @@ services:
     environment:
       - PASSWORD=${PASSWORD}
     volumes:
-      - ./config:/home/rstudio/config
-      - ./projects:/home/rstudio/projects
+      - ./projects:/home/rstudio/
